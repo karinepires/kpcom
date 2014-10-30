@@ -1,0 +1,43 @@
+TODOs: 
+  GIT
+  Git deploy post update http://jekyllrb.com/docs/deployment-methods/
+  CSS minify https://github.com/donaldducky/jekyll-cssminify
+  better design for mobiles
+  make a unified resume site/latex
+
+updating: rsync -arv ./ dh:~/karinepires.com/public/
+
+
+FONTS: 
+  http://snook.ca/archives/html_and_css/font-size-with-rem
+
+  Fredericka the Great
+
+  Programmer
+
+  Codystar
+  Press Start 2P, 1 Style by CodeMan38
+  Orbitron
+  Aldrich
+
+
+  Girly
+
+  Lobster
+  Pacifico
+  Lobster Two
+  Crafty Girls
+  Cookie
+  Lily Script One
+
+
+Arrows: ⇒⇨⇢➠ ➡ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➰ ➱ ➲ ➳ ➴ ➵ ➶ ➷ ➸ ➹ ➺ ➻ ➼ ➽ ➾⟹
+
+
+Nice other online cvs:
+
+  http://danielhollands.co.uk/
+  http://www.phwebs.co.uk/cv.html
+  http://www.smith.edu/lazaruscenter/pdf/science-tech-resumes.pdf
+  http://www.anilwadghule.com/about.html (jekyll)
+  https://andyfreeland.net/about/ (jekyll)
