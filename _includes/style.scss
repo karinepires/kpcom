@@ -86,9 +86,9 @@ hr{
 
 /* sections */
 
-#sections{position:absolute;margin-top: 100vh;z-index: 50;}
+#sections{position:absolute;margin-top: 100vh;z-index: 50;width:100%}
 
-.sec{background:#fff;width:100vw}
+.sec{background:#fff;width:100%}
 .secin{
   max-width: 1500px;
   padding: 20px 50px;

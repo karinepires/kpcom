@@ -228,6 +228,7 @@
 				     \@tablebox{\@addresstwo}}\par
     }%
   }%
+  \vspace{1.5mm}
   \fullline
 \endgroup}
 
@@ -235,7 +236,7 @@
 % this is used to print the name and address at the top of
 % the page with a hline in between
 %
-\def\namefont{\large\bf}
+\def\namefont{\Large\bf}
 \def\@linename{\begingroup
   \def\\{, }
   {\namefont\@name}
@@ -473,8 +474,24 @@
 %
 \def\fullline{		% hrules only listen to \hoffset
   \nointerlineskip	% so I have this code
-  \moveleft\hoffset\vbox{\hrule width\textwidth}
+  %\moveleft\hoffset\vbox{\hrule width\textwidth}
+  \vbox{\textcolor{resumecolor}{\rule{\textwidth}{0.5mm}}}
   \nointerlineskip
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% makes a line of width \textwidth starting at -\hoffset
+%
+\newlength{\mywidth}
+\def\sectionline{    % hrules only listen to \hoffset
+  \nointerlineskip  % so I have this code
+  %\moveleft\hoffset\textcolor{red}{\vbox{\hrule width\textwidth}}
+  %\mywidth={\sectionwidth + \resumewidth}
+  \setlength{\mywidth}{\hoffset+\resumewidth-1.1cm}%
+  %\moveleft\hoffset\vbox{\textcolor{gray!50!white}{\rule{\mywidth}{0.4pt}}}
+  \moveleft\hoffset\vbox{\textcolor{resumecolor}{\rule{\mywidth}{0.4pt}}}
+  \nointerlineskip
+  %\noindent\textcolor{red}{\rule{\textwidth}{5pt}}\par
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

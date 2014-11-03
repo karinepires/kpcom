@@ -41,3 +41,4 @@ Nice other online cvs:
   http://www.smith.edu/lazaruscenter/pdf/science-tech-resumes.pdf
   http://www.anilwadghule.com/about.html (jekyll)
   https://andyfreeland.net/about/ (jekyll)
+  http://www.aniakruk.com/
