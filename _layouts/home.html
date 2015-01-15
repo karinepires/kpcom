@@ -17,14 +17,14 @@
 <body>
   <div id="home">
     <div id="homein">
-    <img src="https://s.gravatar.com/avatar/91351eeb53e8b56ff128cf9873d0fcfb?s=90" class="avatar">
-    <h1>Karine Pires</h1>    
+    <img src="https://s.gravatar.com/avatar/91351eeb53e8b56ff128cf9873d0fcfb?s=90" alt="Karine Pires avatar" class="avatar">
+    <h1>Karine Pires</h1>
     <h2><span>PhD candidate</span> on Multimedia Distributed Systems</h2>
     <h2>and <span>passionate developer</span> located in Paris</h2>
     <div class="social">
-      <a class="social-gh" href="https://github.com/karinepires" target="_blank"><i class="fa fa-github fa-5x"></i></a>
-      <a class="social-t" href="https://twitter.com/karinepires" target="_blank"><i class="fa fa-twitter fa-5x"></i></a>
-      <a class="social-e"><i class="fa fa-envelope fa-5x"></i></a>
+      <a class="social-gh" href="https://github.com/karinepires" target="_blank"><em class="fa fa-github fa-5x"></em></a>
+      <a class="social-t" href="https://twitter.com/karinepires" target="_blank"><em class="fa fa-twitter fa-5x"></em></a>
+      <a class="social-e"><em class="fa fa-envelope fa-5x"></em></a>
     </div>
     </div>
   </div>
@@ -48,7 +48,7 @@
     Development with CPLEX IBM (on Python and C++) to solve ILP of hybrid live stream delivery.
     </li>
     <li>
-    Tutoring two students that developed a tool on Qt/C++ for DASH bandwidth estimation. 
+    Tutoring two students that developed a tool on Qt/C++ for DASH bandwidth estimation.
     </li>
     <li>
     Participation as volunteer on the organization of SBAC-PAD 2014 conference.
@@ -79,7 +79,7 @@
     Dissertation title: A Hybrid TCP/UDP Audio Application and a New Protocol for POTS Streaming (dissertation in Portuguese). Advisor: Dr. Elias P. Duarte Jr.
     </li>
     <li>
-    Participated as a member of a research group with scholarship. 
+    Participated as a member of a research group with scholarship.
     </li>
     <li>
     Volunteer alumnist at the yearly presentations for new students.
@@ -98,16 +98,16 @@
       Managed two teams (design and development), their projects and technical interviews.
       </li>
       <li>
-      Maintained and created large scale websites (millions views monthly) with PHP, RoR and MySQL. 
+      Maintained and created large scale websites (millions views monthly) with PHP, RoR and MySQL.
       </li>
       <li>
-      Deployed many optimizations such as caching strategies, Varnish and Apache server configuration. 
-      Administrated Linux servers with backups, monitoring tools with high availability requirements. 
+      Deployed many optimizations such as caching strategies, Varnish and Apache server configuration.
+      Administrated Linux servers with backups, monitoring tools with high availability requirements.
       </li>
     </ul>
 
-    </ul>
-    
+
+
     <h4><strong>PET Computação UFPR</strong>, Curitiba, Brazil. <span>2004 – 2006</span></h4>
     <h5>Member of PET Computação UFPR with scholarship</h5>
     <ul>
@@ -126,6 +126,15 @@
   <div class="secin">
     <h3>Publications</h3>
     <ul>
+    <li>
+    SILVESTRE, G.; BUFFONI, D.; PIRES, K.; MONNET, S.; SENS, P. . <strong>Boosting Streaming Video Delivery with WiseReplica. </strong> TLDKS. 2015.
+    </li>
+    <li>
+    APARICIO-PARDO, R.; PIRES, K.; BLANC, A.; SIMON, G. . <strong>Transcoding Live Adaptive Video Streams at a Massive Scale in the Cloud.</strong>  MMSyS. 2015.
+    </li>
+    <li>
+    PIRES, K.; SIMON, G. . <strong>YouTube Live and Twitch: A Tour of User-Generated Live Streaming Systems. </strong> MMSyS Data Set. 2015.
+    </li>
     <li>
     PIRES, K. ; MONNET, S. ; SENS, P. . <strong>POPS: a popularity-aware live streaming service.</strong> ICPADS. 2014.
     </li>
@@ -170,7 +179,16 @@
   var parts = $('#home h1').text().split(' ');
   $('.social-e').attr('href', String.fromCharCode(chrs[1],chrs[2],chrs[3],chrs[4],chrs[5],chrs[6],chrs[11]) + parts[0] + String.fromCharCode(chrs[0]) + parts[0] + parts[1] + String.fromCharCode(chrs[7],chrs[8],chrs[9],chrs[10]));
   -->
-  </script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5358126-13', 'auto');
+  ga('send', 'pageview');
+
+</script>
   </div>
 </body>
 </html>
